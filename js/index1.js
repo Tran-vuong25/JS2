@@ -1,3 +1,24 @@
+/**
+ * Khối 1:
+ * Nhập điểm chuẩn hội đồng, điểm 3 môn thi, khu vực ưu tiên, đối tượng ưu tiên
+ * 
+ * Khối 2:
+ * Tính tổng điểm 3 môn thi của sinh viên
+ * Nếu KV A - ĐT 1: +4.5
+ * Nếu KV A - ĐT 2: +3.5
+ * Nếu KV A - ĐT 3: +3
+ * Nếu KV B - ĐT 1: +3.5
+ * Nếu KV B - ĐT 2: +2.5
+ * Nếu KV B - ĐT 3: +2
+ * Nếu KV C - ĐT 1: +3
+ * Nếu KV C - ĐT 2: +2
+ * Nếu KV C - ĐT 3: +1.5
+ * 
+ * Khối 3:
+ * Thông báo kết quả "Trúng tuyển" or "Rớt"
+ * Tổng kết quả
+ */
+
 function inpCont() {
     var point = document.getElementById("inpPoint").value;
     var pointSub1 = document.getElementById("subject1").value;
