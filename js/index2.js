@@ -31,7 +31,7 @@ function calcPrice() {
     } else if (num > 100 && num <= 200){
         totalPrice = (50 * KW_DUOI_50) + (50 * KW_50_100) + ((num - 100) * KW_100_200) 
     } else if (num > 200 && num <= 350){
-        totalPrice = (50 * KW_DUOI_50) + (50 * KW_100_200) + (100 * KW_100_200) + ((num - 200) * KW_200_350) 
+        totalPrice = (50 * KW_DUOI_50) + (50 * KW_50_100) + (100 * KW_100_200) + ((num - 200) * KW_200_350) 
     } else {
         totalPrice = (50 * KW_DUOI_50) + (50 * KW_50_100) + (100 * KW_100_200) + (150 * KW_200_350) + ((num - 350) * KW_TREN_350)
     }
