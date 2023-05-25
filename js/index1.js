@@ -56,7 +56,7 @@ function inpCont() {
     if (totalPoint >= point){
         resultFinal = "Trúng tuyển"
     }
-    document.getElementById("txtNotify").innerHTML = "Kết quả: " + resultFinal +"<br> Tổng điểm: " + totalPoint
+    document.getElementById("txtNotify1").innerHTML = "Kết quả: " + resultFinal +"<br> Tổng điểm: " + totalPoint
 }
 
 document.getElementById("btnTotal").onclick = inpCont

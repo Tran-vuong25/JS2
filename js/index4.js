@@ -26,7 +26,7 @@ var total = 0;
     // console.log(maKH,loaiKhach,soKenh,soKetNoi);
     // console.log(total);
 
-   document.getElementById("Result").innerHTML ="Mã khách hàng: "+ maKH + "<br>Tiền cáp là: $" +total.toLocaleString('en-US') ;
+   document.getElementById("txtNotify4").innerHTML ="Mã khách hàng: "+ maKH + "<br>Tiền cáp là: $" +total.toLocaleString('en-US') ;
 
 }
 

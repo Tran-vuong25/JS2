@@ -26,7 +26,7 @@ function tinhThue(){
         thueSuat = 35;
     }
     var thueThuNhap = thuNhapChiuThue * thueSuat/100;
-    document.getElementById("Result").innerHTML ="Họ và tên: "+ hoTen + "<br>Tiền thuế thu nhập là: " +thueThuNhap.toLocaleString() +" VND";
+    document.getElementById("txtNotify3").innerHTML ="Họ và tên: "+ hoTen + "<br>Tiền thuế thu nhập là: " +thueThuNhap.toLocaleString() +" VND";
 
 }
 

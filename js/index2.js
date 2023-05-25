@@ -36,7 +36,7 @@ function calcPrice() {
         totalPrice = (50 * KW_DUOI_50) + (50 * KW_50_100) + (100 * KW_100_200) + (150 * KW_200_350) + ((num - 350) * KW_TREN_350)
     }
 
-    document.getElementById("txtNotify").innerHTML = "Tên chủ hộ: " + name + "<br>Tổng tiền điện: " + totalPrice.toLocaleString()
+    document.getElementById("txtNotify2").innerHTML = "Tên chủ hộ: " + name + "<br>Tổng tiền điện: " + totalPrice.toLocaleString()
 
 }
 
